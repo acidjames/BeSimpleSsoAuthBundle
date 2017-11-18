@@ -1,6 +1,7 @@
 SSO authentication for Symfony2
 ===============================
 
+Come on Travis !
 
 This bundle helps you to bring SSO authentication to your Symfony2 project.
 
