@@ -3,6 +3,9 @@ SSO authentication for Symfony2
 
 Come on Travis !
 
+[![Build Status](https://travis-ci.org/acidjames/BeSimpleSsoAuthBundle.svg?branch=master)](https://travis-ci.org/acidjames/BeSimpleSsoAuthBundle)
+
+
 This bundle helps you to bring SSO authentication to your Symfony2 project.
 
 
