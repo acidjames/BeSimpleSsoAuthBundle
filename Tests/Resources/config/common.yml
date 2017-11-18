@@ -15,10 +15,10 @@ services:
         class: Symfony\Component\HttpKernel\Log\NullLogger
     be_simple.sso_auth.test_controller.test:
         class: BeSimple\SsoAuthBundle\Tests\Controller\TestController
-        arguments: [@service_container]
+        arguments: ['@service_container']
     be_simple.sso_auth.test_controller.trusted:
         class: BeSimple\SsoAuthBundle\Tests\Controller\TrustedSsoController
-        arguments: [@service_container]
+        arguments: ['@service_container']
     be_simple.sso_auth.client:
         class: BeSimple\SsoAuthBundle\Tests\HttpClient
 
