@@ -23,10 +23,10 @@ services:
         class: BeSimple\SsoAuthBundle\Tests\HttpClient
 
 twig:
-    debug:            %kernel.debug%
-    strict_variables: %kernel.debug%
+    debug:            "%kernel.debug%"
+    strict_variables: "%kernel.debug%"
     paths:
-        - %kernel.root_dir%/Resources/views
+        - "%kernel.root_dir%/Resources/views"
 
 security:
     encoders:
