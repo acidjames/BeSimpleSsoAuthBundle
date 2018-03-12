@@ -40,6 +40,7 @@ cache:
     - $HOME/.composer/cache
 
 before_install:
+  - composer req symfony/annotations
   - composer req symfony/asset
   - composer req symfony/templating
   - if [ "$DEPENDENCIES" = "beta" ]; then composer config minimum-stability beta; fi;
